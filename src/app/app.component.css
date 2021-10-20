@@ -1,0 +1,67 @@
+* {
+    text-transform: uppercase;
+    font-family: helvetica, Sans-serif;
+}
+body {
+  margin: 0 auto;
+  padding: 0 10px;
+  max-width: 1280px;
+}
+input {
+  max-width: 1280px;
+  line-height: 72px;
+  font-size: 72px;
+  font-weight: bold;
+  border: none;
+  margin-top: 5px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  width: 95%;
+  -webkit-appearance: none;
+  padding: 0;
+} 
+a {
+    color: #000;
+    text-decoration: none;
+}
+a:visited {
+    color: #000;
+}
+a:hover {
+    border-bottom: 3px solid #000;
+}
+input:focus {
+    outline: none;
+}
+h1 {
+    font-size: 72px;
+}
+  
+h1.question {
+   margin-bottom: 0.1em;
+} 
+.food-search {
+    border: 1px solid #000;
+    display: -ms-flexbox;
+    display: flex;
+  }  
+.food-search h1 {
+    line-height: 0;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    width: 5%;
+}
+@media only screen and (max-width: 820px) { 
+    input, h1 {
+        line-height: 42px;
+        font-size: 42px;
+      }
+    
+      input {
+        width: 90%;
+      }
+    
+      .city-search h1 {
+        width: 10%;
+      }
+}
