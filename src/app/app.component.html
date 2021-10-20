@@ -5,16 +5,19 @@
       <form #food="ngForm" (ngSubmit)="onSubmit(food.value)">
         <input type="text" name="search" placeholder="food" ngModel>
         <button id="submit" type="submit">
+          <!-- <h1>⏎</h1> -->
           <h1>?</h1>
         </button>
       </form>
     </div>
-    <div id="decision"></div>
-    <div class="new-search">
-      <button id="reset" type="button" (click)="resetForm()">
-        <a> New Search </a>
-      </button>
+    <div #decision>
+
     </div>
+    <!-- <div class="new-search">
+      <button id="reset" type="button" (click)="resetForm()">
+        <a> clear Search </a>
+      </button>
+    </div> -->
     <footer>
       <h3>
         <a href="https://github.com/kaushic"> Made by Kaushi Chandraratna</a>

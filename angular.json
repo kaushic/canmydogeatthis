@@ -92,6 +92,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "canmydogeatthis:build:production",
+            "firebaseProject": "canmydogeatthis-a4017",
+            "firebaseHostingSite": "canmydogeat"
+          }
         }
       }
     }

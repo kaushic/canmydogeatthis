@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "canmydogeatthis-a4017": {
+      "hosting": {
+        "canmydogeatthis": [
+          "canmydogeat"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "canmydogeatthis-a4017"
+  }
+}
