@@ -108,7 +108,7 @@
             "ssr": false,
             "browserTarget": "canmydogeatthis:build:production",
             "firebaseProject": "canmydogeatthis-a4017",
-            "firebaseHostingSite": "canmydogeat"
+            "firebaseHostingSite": "canmydogeatthis-a4017"
           }
         }
       }

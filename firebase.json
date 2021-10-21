@@ -1,7 +1,7 @@
 {
   "hosting": {
     "target": "canmydogeatthis",
-    "public": "dist/canmydogeatthis",
+    "public": "./dist/canmydogeatthis",
     "ignore": [
       "**/.*"
     ],
