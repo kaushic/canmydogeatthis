@@ -63,13 +63,20 @@ export class AppComponent {
   setDecision(decision: boolean) {
     let resp;
     if (decision) {
-      resp = "that's a yes from me dawg";
+      resp = this.getRandomYesResponse();
     } else {
       resp = "that's a no from me dawg";
     }
     this.renderDecision(resp);
   }
   renderDecision(resp: any) {
-    this.decision.nativeElement.innerHTML = `<h2 class="loading">"${resp}"</h2>`;
+    this.decision.nativeElement.innerHTML = `<div style="width:100%;height:0;padding-bottom:83%;position:relative;"><img src="src/yesGifs/yes1.gif"></img></div>`;
+    // <iframe src="https://giphy.com/embed/MNmyTin5qt5LSXirxd" width="50%" height="50%" style="position:absolute" frameBorder="0" class="giphy-embed"></iframe>
+    //resp;//`<h2 class="response">"${resp}"</h2>`;
+
+  }
+
+  getRandomYesResponse() {
+    console.log("h i");
   }
 }

@@ -3,7 +3,7 @@
     <h1 class="question"> Can my dog eat </h1>
     <div class="food-search">
       <form #food="ngForm" (ngSubmit)="onSubmit(food.value)">
-        <input type="text" name="search" placeholder="food" ngModel>
+        <input type="text" name="search" autocomplete="off" placeholder="food" ngModel>
         <button id="submit" type="submit">
           <!-- <h1>⏎</h1> -->
           <h1>?</h1>
